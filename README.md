@@ -1,0 +1,1 @@
+# friendly-docker-container
