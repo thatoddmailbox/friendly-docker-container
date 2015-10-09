@@ -6,5 +6,5 @@ RUN apt-get install -y libfreetype6 libfreetype6-dev libsqlite3-0 libsqlite3-dev
 RUN apt-get install -y g++-4.8 cmake
 
 RUN curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-RUN apt-get install -y nodejs
+RUN apt-get install -y nodejs npm
 RUN npm install -g azure-cli
